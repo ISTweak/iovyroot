@@ -23,6 +23,11 @@ struct offsets offsets[] = {
 	  { (void*)CHECK_FLAGS_OFFSET(0xffffffc001963938) },
 	  (void*)0xffffffc000336ce4, (void*)0xffffffc0003037c8, (void*)0xffffffc00189b9c0,
 	  (void*)0xffffffc00189b7c8, (void*)0xffffffc001649320, (void*)0xffffffc001898324 },
+	//G Flex 2, 5.1.1 LMY47S
+	{ "LG-H959", "Linux version 3.10.49-perf-g7db53f8 (lgmobile@LGEACI5R9) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Nov 16 14:32:00 KST 2015",
+	  { (void*)CHECK_FLAGS_OFFSET(0xffffffc001963938) },
+	  (void*)0xffffffc000336c74, (void*)0xffffffc000303758, (void*)0xffffffc00189b9c0,
+	  (void*)0xffffffc00189b7c8, (void*)0xffffffc001649320, (void*)0xffffffc001898324 },
 	//Nexus 5X, 6.0.1 MHC19J
 	{ "Nexus 5X", "Linux version 3.10.73-g3e127ab (android-build@wpiz15.hot.corp.google.com) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Tue Feb 9 20:02:25 UTC 2016",
 	  { (void*)CHECK_FLAGS_OFFSET(0xffffffc001cfd430 + 8) },
@@ -251,6 +256,18 @@ struct offsets offsets[] = {
 	{ "Nexus 5", "Linux version 3.4.0-gbaedb01 (android-build@vped10.mtv.corp.google.com) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Sat Jan 16 01:19:53 UTC 2016",
 	  { (void*)FSYNC_OFFSET(0xc1337f10) },
 	  (void*)0xc132fefc, (void*)0xc132fdf4, (void*)0xc11770d8, (void*)0xc132e3a0 },
+        // Nexus 7 [2013] (Wi-Fi), 4.4.4 KTU84P
+        { "Nexus 7", "Linux version 3.4.0-g03485a6 (android-build@vpbs1.mtv.corp.google.com) (gcc version 4.7 (GCC) ) #1 SMP PREEMPT Tue Mar 18 15:02:27 PDT 2014",
+          { (void*)FSYNC_OFFSET(0xc114e828) },
+          (void*)0xc113b10c, (void*)0xc113affc, (void*)0xc0fa58d4, (void*)0xc11395b0 },
+        // Nexus 6, 5.1.0 LMY47D
+        { "Nexus 6", "Linux version 3.10.40-geec2459 (android-build@vpbs1.mtv.corp.google.com) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Wed Jan 28 22:14:35 UTC 2015",
+          { (void*)FSYNC_OFFSET(0xc130cfd8) },
+          (void*)0xc1294590, (void*)0xc1294480, (void*)0xc104fc30, (void*)0xc1292a2c },
+        // Nexus 6, 6.0.1 MMB29K
+        { "Nexus 6", "Linux version 3.10.40-g557ba38 (android-build@wpiv5.hot.corp.google.com) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Wed Nov 4 00:29:43 UTC 2015",
+          { (void*)FSYNC_OFFSET(0xc1412450) },
+          (void*)0xc13971e0, (void*)0xc13970d0, (void*)0xc115072c, (void*)0xc1395678 },
 };
 
 #endif /* (__LP64__) */
