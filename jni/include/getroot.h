@@ -11,7 +11,7 @@ int modify_task_cred_uc_sid(struct thread_info* info, unsigned int sid);
 unsigned get_last_sid(void);
 
 //32bit
-void copyshellcode(void* addr);
+struct thread_info* patchaddrlimit();
 //64bit
 void preparejop(void** addr, void* jopret);
 
