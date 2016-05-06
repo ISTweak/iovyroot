@@ -75,6 +75,9 @@ int modify_task_cred_uc_sid(struct thread_info* __kernel info, unsigned int sid)
 	last_sid = 0;
 
 	tsp = malloc(sizeof(*tsp));
+	if (!tsp)
+		return -ENOMEM;
+
 	for(i = 0; i < 0x600; i+= sizeof(void*))
 	{
 		struct task_struct_partial* __kernel t = (struct task_struct_partial*)((void*)ti.task + i);
