@@ -146,11 +146,23 @@ end:
 	return 0;
 }
 
+unsigned get_last_sid(void)
+{
+	return last_sid;
+}
+
+int modify_task_cred_uc(struct thread_info* __kernel info)
+{
+	return modify_task_cred_uc_sid(info, get_sid("init"));
+}
+
 #if !(__LP64__)
 
 struct thread_info* patchaddrlimit()
 {
-	return modify_task_cred_uc_sid(info, get_sid("init"));
+	struct thread_info* ti = current_thread_info();
+	ti->addr_limit = -1;
+	return ti;
 }
 
 #else
