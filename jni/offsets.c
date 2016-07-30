@@ -245,10 +245,18 @@ struct offsets offsets[] = {
 	{ "D5803", "Linux version 3.4.0-perf-gbe52486 (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Sep 17 15:00:01 2015",
 	  { (void*)FSYNC_OFFSET(0xc10ec130) },
 	  (void*)0xc10e0c3c, (void*)0xc10e0b2c, (void*)0xc0f57884, (void*)0xc10df0d8 },
+	//Z3C 23.5.A.0.575
+	{ "D5803", "Linux version 3.4.0-perf-g43ea728 (BuildUser@BuildHost) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Fri Apr 22 17:27:56 2016",
+	  { (void*)FSYNC_OFFSET(0xc1234b30) },
+	  (void*)0xc122954c, (void*)0xc1229574, (void*)0xc102f1c0, (void*)0xc1227af0 },
 	//Z3C 23.1.B.1.197
 	{ "SO-02G", "Linux version 3.4.0-perf-gf6a03f1 (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Wed Aug 5 12:06:34 2015",
 	  { (void*)FSYNC_OFFSET(0xc10e9470) },
 	  (void*)0xc10de07c, (void*)0xc10ddf6c, (void*)0xc0f56dc4, (void*)0xc10dc518 },
+	//Z3 23.5.A.0.575
+	{ "D6633", "Linux version 3.4.0-perf-g43ea728 (BuildUser@BuildHost) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Fri Apr 22 17:27:56 2016",
+	  { (void*)FSYNC_OFFSET(0xc1235070) },
+	  (void*)0xc1229a8c, (void*)0xc1229ab4, (void*)0xc102ff80, (void*)0xc1228030 },
 	//M2_EULTE 18.6.A.0.182
 	{ "D2303", "Linux version 3.4.0-gc82e70f (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Mon Aug 10 21:54:32 2015",
 	  { (void*)FSYNC_OFFSET(0xc0feaf68) },
@@ -273,6 +281,50 @@ struct offsets offsets[] = {
 	{ "D2305", "Linux version 3.4.0-gc82e70f (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Mon Aug 10 21:54:32 2015",
 	  { (void*)FSYNC_OFFSET(0xc0feae68) },
 	  (void*)0xc0fe1ebc, (void*)0xc0fe1dac, (void*)0xc0e4ada4, (void*)0xc0fe0358 },
+	//Z1c 14.6.A.1.236
+	{ "D5503", "Linux version 3.4.0-perf-gd26777b-00851-ga8b7b55 (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Nov 19 10:33:19 2015",
+	  { (void*)FSYNC_OFFSET(0xc10ecb90) },
+	  (void*)0xc10e17fc, (void*)0xc10e16ec, (void*)0xc0f57304, (void*)0xc10dfc98 },
+	//Z1_C6902 14.6.A.1.236
+	{ "C6902", "Linux version 3.4.0-perf-gd26777b-00851-ga8b7b55 (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Nov 19 10:33:19 2015",
+	  { (void*)FSYNC_OFFSET(0xc10ecb90) },
+	  (void*)0xc10e17fc, (void*)0xc10e16ec, (void*)0xc0f57304, (void*)0xc10dfc98 },
+	//Z1_C6903 14.6.A.1.236
+	{ "C6903", "Linux version 3.4.0-perf-gd26777b-00851-ga8b7b55 (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Nov 19 10:33:19 2015",
+	  { (void*)FSYNC_OFFSET(0xc10ecb90) },
+	  (void*)0xc10e17fc, (void*)0xc10e16ec, (void*)0xc0f57304, (void*)0xc10dfc98 },
+	//Z1_C6906 14.6.A.1.236
+	{ "C6906", "Linux version 3.4.0-perf-gd26777b-00851-ga8b7b55 (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Nov 19 10:33:19 2015",
+	  { (void*)FSYNC_OFFSET(0xc10ecb90) },
+	  (void*)0xc10e17fc, (void*)0xc10e16ec, (void*)0xc0f57304, (void*)0xc10dfc98 },
+	//Z1_C6943 14.6.A.1.236
+	{ "C6943", "Linux version 3.4.0-perf-gd26777b-00851-ga8b7b55 (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Nov 19 10:33:19 2015",
+	  { (void*)FSYNC_OFFSET(0xc10ecb90) },
+	  (void*)0xc10e17fc, (void*)0xc10e16ec, (void*)0xc0f57304, (void*)0xc10dfc98 },
+	//C3_D2502 19.4.A.0.182
+	{ "D2502", "Linux version 3.4.0+ (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Jul 2 12:32:21 2015",
+	  { (void*)FSYNC_OFFSET(0xc0fcb018) },
+	  (void*)0xc0fc207c, (void*)0xc0fc1f6c, (void*)0xc0e498e4, (void*)0xc0fc0518 },
+	//C3_D2533 19.4.A.0.182
+	{ "D2533", "Linux version 3.4.0+ (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Jul 2 12:32:21 2015",
+	  { (void*)FSYNC_OFFSET(0xc0fcb018) },
+	  (void*)0xc0fc207c, (void*)0xc0fc1f6c, (void*)0xc0e498e4, (void*)0xc0fc0518 },
+	//T2u_D5303 19.4.A.0.182
+	{ "D5303", "Linux version 3.4.0+ (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Jul 2 12:32:21 2015",
+	  { (void*)FSYNC_OFFSET(0xc0fcb318) },
+	  (void*)0xc0fc237c, (void*)0xc0fc226c, (void*)0xc0e4a2e4, (void*)0xc0fc0818 },
+	//T2u_D5306 19.4.A.0.182
+	{ "D5306", "Linux version 3.4.0+ (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Jul 2 12:32:21 2015",
+	  { (void*)FSYNC_OFFSET(0xc0fcb318) },
+	  (void*)0xc0fc237c, (void*)0xc0fc226c, (void*)0xc0e4a2e4, (void*)0xc0fc0818 },
+	//T2u_D5316 19.4.A.0.182
+	{ "D5316", "Linux version 3.4.0+ (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Jul 2 12:32:21 2015",
+	  { (void*)FSYNC_OFFSET(0xc0fcb318) },
+	  (void*)0xc0fc237c, (void*)0xc0fc226c, (void*)0xc0e4a2e4, (void*)0xc0fc0818 },
+	//T2u_D5322 19.4.A.0.182
+	{ "D5322", "Linux version 3.4.0+ (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Jul 2 12:32:21 2015",
+	  { (void*)FSYNC_OFFSET(0xc0fcb318) },
+	  (void*)0xc0fc237c, (void*)0xc0fc226c, (void*)0xc0e4a2e4, (void*)0xc0fc0818 },
 	//ZR 10.7.A.0.228
 	{ "C5503", "Linux version 3.4.0-perf-gbccb33a (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Fri Jul 10 09:23:01 2015",
 	  { (void*)FSYNC_OFFSET(0xc1073ca0) },
@@ -283,6 +335,10 @@ struct offsets offsets[] = {
 	{ "Nexus 5", "Linux version 3.4.0-gbaedb01 (android-build@vped10.mtv.corp.google.com) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Sat Jan 16 01:19:53 UTC 2016",
 	  { (void*)FSYNC_OFFSET(0xc1337f10) },
 	  (void*)0xc132fefc, (void*)0xc132fdf4, (void*)0xc11770d8, (void*)0xc132e3a0 },
+	//Nexus 5, 5.0.1 LRX22C
+	{ "Nexus 5", "Linux version 3.4.0-g88fbc66 (android-build@vpbs1.mtv.corp.google.com) (gcc version 4.7 (GCC) ) #1 SMP PREEMPT Mon Oct 20 22:18:31 UTC 2014",
+	  { (void*)FSYNC_OFFSET(0xc1236cd8) },
+	  (void*)0xc122ecc0, (void*)0xc122ebb0, (void*)0xc1076be0, (void*)0xc122d164 },
 
 	/********************** ASUS **********************/
 	//Nexus 7 [2013] (Wi-Fi), 4.4.4 KTU84P
@@ -303,6 +359,32 @@ struct offsets offsets[] = {
 	{ "Nexus 6", "Linux version 3.10.40-g557ba38 (android-build@wpiv5.hot.corp.google.com) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Wed Nov 4 00:29:43 UTC 2015",
 	  { (void*)FSYNC_OFFSET(0xc1412450) },
 	  (void*)0xc13971e0, (void*)0xc13970d0, (void*)0xc115072c, (void*)0xc1395678 },
+
+    /********************** HUAWEI ************************/
+	//MediaPad T1-701u, 4.4.2 B005
+	{ "T1-701u", "Linux version 3.10.17-gcf73bb7 (jslave@wuheatculx00126) (gcc version 4.7 (GCC) ) #0 SMP PREEMPT Tue May 26 14:02:13 CST 2015",
+	  { (void*)FSYNC_OFFSET(0xc0874a30) },
+	  (void*)0xc0872b5c, (void*)0xc0872a4c, (void*)0xc07e5304, (void*)0xc0870ff8 },
+	//MediaPad T1-701u, 4.4.2 B006
+	{ "T1-701u", "Linux version 3.10.17-gbf3879f (jslave@wuheatculx00135) (gcc version 4.7 (GCC) ) #0 SMP PREEMPT Thu Jun 11 14:53:36 CST 2015",
+	  { (void*)FSYNC_OFFSET(0xc0878a30) },
+	  (void*)0xc0876b5c, (void*)0xc0876a4c, (void*)0xc07e9304, (void*)0xc0874ff8 },
+	//MediaPad T1-701u, 4.4.2 B009
+	{ "T1 7.0", "Linux version 3.10.17-g7f6ac8a (jslave@wuheatculx00141) (gcc version 4.7 (GCC) ) #0 SMP PREEMPT Tue Sep 15 20:23:48 CST 2015",
+	  { (void*)FSYNC_OFFSET(0xc087aa30) },
+	  (void*)0xc0878b5c, (void*)0xc0878a4c, (void*)0xc07eb304, (void*)0xc0876ff8 },
+      //MediaPad T1-701u, 4.4.2 B101
+	{ "T1-701u", "Linux version 3.10.17-gd7b8e16 (jslave@wuheatculx00129) (gcc version 4.7 (GCC) ) #0 SMP PREEMPT Sat Nov 21 12:12:27 CST 2015",
+	  { (void*)FSYNC_OFFSET(0xc087cdb0) },
+	  (void*)0xc087aedc, (void*)0xc087adcc, (void*)0xc07eb304, (void*)0xc0879378 },
+      //MediaPad T1-701u, 4.4.2 B101
+	{ "T1 7.0", "Linux version 3.10.17-g9935c48 (jslave@wuheatculx00128) (gcc version 4.7 (GCC) ) #0 SMP PREEMPT Wed Jan 6 11:15:40 CST 2016",
+	  { (void*)FSYNC_OFFSET(0xc088e530) },
+	  (void*)0xc088c65c, (void*)0xc088c54c, (void*)0xc07fb304, (void*)0xc088aaf8 },
+      //MediaPad T1-701u, 4.4.2 B102
+	{ "T1-701u", "Linux version 3.10.17-g9935c48 (jslave@wuheatculx00118) (gcc version 4.7 (GCC) ) #0 SMP PREEMPT Fri Jan 8 16:34:04 CST 2016",
+	  { (void*)FSYNC_OFFSET(0xc088e530) },
+	  (void*)0xc088c65c, (void*)0xc088c54c, (void*)0xc07fb304, (void*)0xc088aaf8 },
 };
 
 #endif /* (__LP64__) */
@@ -400,8 +482,11 @@ struct offsets* get_offsets()
 	}
 
 end:
-	if(o == NULL)
+	if(o == NULL) {
 		printf("Error: Device not supported\n");
+		printf("Device name: %s\n", devname);
+		printf("Kernel version: %s\n", kernelver);
+	}
 	free(devname);
 	free(kernelver);
 	return o;
